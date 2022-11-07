@@ -1,0 +1,297 @@
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	box-sizing: border-box !important;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+/*---------------NAV SECTION--------*/
+
+.logo{
+    font-family: "Sofia", sans-serif;
+    font-weight: 800;
+    margin-left: 30px;
+    font-size: 35px !important;
+}
+
+
+#Nav{
+	background-image: linear-gradient(90deg, #ff7500, #ff902A) !important;
+}
+
+
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+
+.navbar-nav li a{
+	font-weight: bold;
+	color: black;
+	font-size: 18px;
+
+}
+
+.active{
+	color: #fff !important;
+}
+
+.nav-item a:hover{
+	color: #fff;
+}
+
+.dropdown-menu li a:hover{
+	color: grey;
+}
+
+
+/*------------------BANNER SECTION-------------------*/
+
+
+#banner{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: black;
+	margin-bottom: 70px;
+}
+
+.promo-title{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+	color: #ff7500;
+	margin-bottom: 45px;
+}
+
+.btnn{
+	align-self: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img-responsive{
+	max-width: 100%;
+	height: auto;
+	margin-top: 25px;
+}
+
+
+.promo p{
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+
+
+.btnn{
+	background-color: #ff7500 !important;
+	font-weight: 700 !important;
+	margin-left: 38%;
+	margin-top: 30px;
+	padding: 10px 25px !important;
+	border-radius: 200px !important;
+	text-decoration: none;
+	color: #000 !important;
+}
+
+.promo a:hover{
+	background-color: #fff !important;
+}
+
+
+/*----------COLLECTION SECTION-----------*/
+
+#collections{
+	background-color: #000;
+	padding-bottom: 100px !important;
+}
+
+.collections1{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	align-content: space-between;
+}
+
+.link-view{
+	text-decoration: none;
+	font-size: 17px;
+	color: #fff;
+}
+
+.link-view:hover{
+	color: #ff7500;
+}
+
+.fa-solid{
+	background-color: #000;
+}
+
+.p-font{
+	font-weight: 600;
+}
+
+.img-col{
+	padding-top: 30px;
+}
+
+
+
+
+/*------------------------PHOTO SECTION-------------------*/
+
+.optimum{
+	margin: 80px 20px !important;
+}
+
+.optimum p{
+	width: 250px !important;
+	margin-top: 35px !important;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+.shop-btn{
+	background-color: #ff7500;
+	font-weight: 400;
+	text-decoration: none;
+	color: #fff !important;
+	padding: 10px 25px;
+	border-radius: 200px;
+}
+
+.optimum a:hover{
+	background-color: #000 !important;
+}
+
+
+/*---------------------NEWSLETTER SECTION------------------------*/
+
+#newsletter{
+	background-color: #000;
+	padding: 65px 0;
+}
+
+.news-input{
+	max-width: 50% !important;
+	justify-self: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*-------------OPTIMAL MAKEUP SECTION----------*/
+
+.hero{
+	align-self: center;
+	font-size: 18px;
+	width: 250px;
+}
+
+
+.hero h2{
+	font-weight: bold;
+}
+/*----------------SOCIAL MEDIA SECTION------------*/
+
+#social-media{
+	background-color: #000;
+	padding: 100px 0;
+	margin-top: 30px;
+}
+
+#social-media p{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+.social-icons img{
+	transition: 0.2s;
+	margin: 0 5px;
+	max-width: 100%;
+	height: auto;
+}
+
+.social-icons a:hover img{
+	transform: translateY(-10px);
+}
+
+@media screen and (max-width: 400px){
+	.social-icons{
+		max-width: 30px;
+	}
+
+	.social-icons img{
+		margin-top: 25px;
+	}
+}
+
+/*-------------------FOOTER SECTION---------------------*/
+
+#footer{
+	margin-top: 70px;
+	background-color: #000;
+	padding-top: 150px;
+}
+
+.footer-box{
+	padding-bottom: 100px;
+}
+
+.footer-box a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer-box a:hover{
+	color: grey;
+}
+
+.logo-footer{
+	color: #ff7500; 
+	margin: -15px -5px;
+}
+
+.fa-solid{
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+	background-image: linear-gradient(to right, #ff7500, #ff902A)
+}
+
+
+hr{
+	background-color: #fff;
+	height: 2px;
+}
+
+.copyright{
+	margin-bottom: 0;
+	padding: 20px;
+	text-align: center;
+}
+
+.gotopbtn{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	font-size: 40px;
+}

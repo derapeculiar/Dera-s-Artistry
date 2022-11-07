@@ -1,0 +1,174 @@
+*{
+	box-sizing: border-box !important;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*---------------NAV SECTION--------*/
+
+.logo{
+    font-family: "Sofia", sans-serif;
+    font-weight: 800;
+    margin-left: 30px;
+    font-size: 35px !important;
+}
+
+
+#Nav{
+	background-image: linear-gradient(90deg, #ff7500, #ff902A) !important;
+}
+
+
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+
+.navbar-nav li a{
+	font-weight: bold;
+	color: black;
+	font-size: 18px;
+
+}
+
+.active{
+	color: #fff !important;
+}
+
+.nav-item a:hover{
+	color: #fff;
+}
+
+.dropdown-menu li a:hover{
+	color: grey;
+}
+
+
+/*-----------------CONTACT SECTION----------------------*/
+
+#contact-section{
+	background-image: url(https://img.freepik.com/free-vector/smooth-white-wave-background_52683-55288.jpg?w=2000);
+	background-size: cover;
+	padding: 150px;
+	margin-bottom: -70px;
+}
+
+.contact h5{
+	margin-top: 200px;
+	margin-bottom: 50px;
+}
+
+.contact h1{
+	font-size: 75px;
+	font-weight: 200;
+}
+
+.contact h4{
+	margin-bottom: 100px;
+	text-transform: uppercase;
+	color: grey;
+}
+
+.c-home{
+	color: grey !important;
+	text-decoration: none;
+}
+
+.contact a:hover{
+	text-decoration: underline;
+}
+
+.address p{
+	font-size: 21px;
+}
+
+.address a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+
+.c-homee{
+	color: #232023;
+	text-decoration: none;
+}
+
+
+/*------------------FORM SECTION--------------*/
+
+#form{
+	margin-top: 105px;
+}
+
+.form-group{
+	margin-top: 30px;
+}
+
+.form-control{
+	max-width: 70%;
+}
+
+
+
+/*-------------------FOOTER SECTION---------------------*/
+
+#footer{
+	margin-top: 70px;
+	background-color: #000;
+	padding-top: 150px;
+}
+
+.footer-box{
+	padding-bottom: 100px;
+}
+
+.footer-box a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer-box a:hover{
+	color: grey;
+}
+
+.logo-footer{
+	color: #ff7500; 
+	margin: -15px -5px;
+}
+
+.fa-solid{
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+	background-image: linear-gradient(to right, #ff7500, #ff902A)
+}
+
+
+hr{
+	background-color: #fff;
+	height: 2px;
+}
+
+.copyright{
+	margin-bottom: 0;
+	padding: 20px;
+	text-align: center;
+}
+
+.gotopbtn{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	font-size: 40px;
+}
